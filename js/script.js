@@ -1,3 +1,4 @@
+console.log ('Gracz podał + getMoveName');
 
 function getMoveName(argMoveId){
     if(argMoveId == 1){
@@ -21,7 +22,7 @@ function getMoveName(argMoveId){
     return 'nieznany ruch';
 }
 
-
+console.log('moves', argComputerMove, argPlayerMove);
 function displayResult(argComputerMove, argPlayerMove){
     printMessage('Mój ruch to' + argComputerMove + ', Twój ruch to' + argPlayerMove);
   
