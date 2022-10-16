@@ -88,3 +88,13 @@ function playGame(playerInput){
 
 }
 /*playGame(3);*/ /*usuwam zgodnie z następnymi krokami*/
+
+document.getElementById('play-rock').addEventListener('click', function(){
+    playGame('Klik');
+
+document.getElementById('play-paper').addEventListener('click', function(){
+    playGame('Klik');
+
+document.getElementById('play-scissors').addEventListener('click', function(){
+    playGame('Klik');
+  
